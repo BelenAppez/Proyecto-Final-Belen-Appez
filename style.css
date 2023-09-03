@@ -26,6 +26,10 @@ body {
   margin: auto;
   padding-right: 10px;
 }
+.navbar .nav-link {
+  font-weight: bold;
+  color: var(--bs-navbar-active-color);
+}
 .navbar .navbar-nav a.nav-link:hover {
   color: black;
   background-color: #cbb279;
@@ -414,6 +418,7 @@ footer .footer-container .logo-animado {
   gap: 10px;
   max-width: 600px;
   margin: 0 auto;
+  padding: 30px;
 }
 .grid-container .titulo {
   grid-column: 1/span 3;
@@ -425,7 +430,7 @@ footer .footer-container .logo-animado {
   background-color: #f0f0f0;
   padding: 20px;
   text-align: center;
-  font-weight: 30;
+  font-weight: bold;
 }
 
 /* events page*/
@@ -542,6 +547,7 @@ footer .footer-container .logo-animado {
   }
   /*about index*/
   .section-about {
+    padding-top: 0;
     padding-bottom: 10px;
   }
   .section-about .contenedor_about {
@@ -555,7 +561,7 @@ footer .footer-container .logo-animado {
   }
   .section-about .contenedor_about .contenedor-img {
     padding-top: 40px;
-    padding-bottom: 20;
+    padding-bottom: 20px;
   }
   .section-about .contenedor_about .contenedor-img img {
     width: 100%;
@@ -570,6 +576,7 @@ footer .footer-container .logo-animado {
   /* events page*/
   .section-event {
     margin-bottom: 0px;
+    padding-bottom: 22px;
   }
   .section-event .contenedor_event {
     padding: 40px 20px 20px 20px;
@@ -583,16 +590,19 @@ footer .footer-container .logo-animado {
   .section-event .contenedor_event .contenedor-img img {
     width: 100%;
   }
-  .contenedor_hall {
+  .section-hall {
+    padding-top: 22px;
+  }
+  .section-hall .contenedor_hall {
     padding: 20px 20px 40px 20px;
     display: flex;
     flex-direction: column;
     width: 100%;
   }
-  .contenedor_hall .contenedor-img {
+  .section-hall .contenedor_hall .contenedor-img {
     padding-bottom: 40px;
   }
-  .contenedor_hall .contenedor-img img {
+  .section-hall .contenedor_hall .contenedor-img img {
     width: 100%;
   }
   /* Rooms Page */
@@ -604,6 +614,7 @@ footer .footer-container .logo-animado {
   }
   .section-base {
     padding-top: 10px;
+    padding-bottom: 0;
   }
   .section-base .contenedor_base {
     padding: 20px;
@@ -649,5 +660,18 @@ footer .footer-container .logo-animado {
   }
   .contenedor_superior .contenedor-img img {
     width: 100%;
+  }
+  /*WWu pagw*/
+  .form-title {
+    text-align: center;
+  }
+  .grid-container {
+    padding: 20px;
+  }
+  .grid-container .trabaja-con {
+    font-weight: bold;
+  }
+  .grid-container .celda {
+    font-weight: bold;
   }
 }/*# sourceMappingURL=style.css.map */
