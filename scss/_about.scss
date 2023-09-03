@@ -1,0 +1,71 @@
+/*About US index*/
+
+.section-about {
+    background-color: #f1f1f1;
+    display: flex;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    width: 100%;
+
+    .contenedor_about {
+        padding: 40px;
+        line-height: 1.5rem;
+        font-weight: bolder;
+        max-width: 1600px;
+        display: flex;
+
+        img {
+            width: 600px;
+        }
+
+        .contenedor_texto_about {
+            text-align: center;
+            padding: 0 20px 0 20px;
+            max-width: 700px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .titulo_texto_about {
+                margin-bottom: 40px;
+                font-weight: bolder;
+            }
+        }
+    }
+}
+
+.vision-mision {
+    background-color: #f1f1f1;
+
+    .vision {
+        max-width: 900px;
+        text-align: center;
+        margin: auto;
+        padding: 0 0 60px 0;
+        line-height: 1.5rem;
+        font-style: italic;
+        font-weight: bold;
+
+        .titulo-vision {
+            margin-bottom: 40px;
+            font-weight: bolder;
+        }
+    }
+
+    .mision {
+        max-width: 900px;
+        text-align: center;
+        margin: auto;
+        padding: 0 0 60px 0;
+        line-height: 1.5rem;
+        font-style: italic;
+        font-weight: bold;
+
+        .titulo-mision {
+            margin-bottom: 40px;
+            font-weight: bolder;
+        }
+    }
+
+}

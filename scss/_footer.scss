@@ -1,0 +1,54 @@
+footer {
+    background-color: #537188;
+    align-items: center;
+    height: 150px;
+    padding: 20px;
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .contact-form {
+            text-align: left;
+            font-weight: 800;
+
+            .contact-form p {
+                margin: 5px 0;
+            }
+        }
+
+        .social-media {
+            text-align: right;
+
+            .footer-links {
+                margin-right: 10px;
+
+                .footer-links img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+
+        .logo-animado {
+            animation-duration: 4s;
+            animation-name: logo-animado;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes logo-animado {
+            0% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+    }
+}

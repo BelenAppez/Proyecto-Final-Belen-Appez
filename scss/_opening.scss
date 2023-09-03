@@ -1,0 +1,23 @@
+/* opening*/
+.section-header {
+    width: 100%;
+    background-image: url(./Img/apertura.jpg);
+
+    .primer_articulo {
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 1200px;
+        margin: auto;
+
+        .header-banner {
+
+            text-align: center;
+            font-size: 5rem;
+            font-weight: 1000;
+            color: rgb(48, 46, 46);
+
+        }
+    }
+}
